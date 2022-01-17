@@ -87,7 +87,7 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
+        f"-------------------------\n"
         f"County Votes:\n")
     print(election_results, end="")
 
@@ -96,32 +96,32 @@ with open(file_to_save, "w") as txt_file:
     # 6a: Write a for loop to get the county from the county dictionary.
     for county_name in county_votes:
         # 6b: Retrieve the county vote count.
-        votes = county_cvotes.get(county_name)    
+        cvotes = county_votes.get(county_name)    
     
         
         # 6c: Calculate the percentage of votes for the county.
-        vote_count = float(votes) / float(total_votes) * 100
-        county_votes = (f"{county_name}: {vote_count:.1f}% ({cvotes:,})\n") 
+        vote_count = float(cvotes) / float(total_votes) * 100
+        county_output = (f"{county_name}: {vote_count:.1f}% ({cvotes:,})\n") 
                    
          # 6d: Print the county results to the terminal.
-        print(county_votes, end="")
+        print(county_output, end="")
                      
          # 6e: Save the county votes to a text file.
-
+        txt_file.write(county_output)
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (votes > county_vote):
+        if (cvotes > county_vote):
                 winning_countie = county_name
-                vote_count = (votes)
+                vote_count = (cvotes)
              
 
     # 7: Print the county with the largest turnout to the terminal.
-        county_vote = (
+        county_summary = (
         f"-------------------------\n"
         f"Largest County Turnout :{county_vote}\n"
         f"-------------------------\n")
-    print(county_vote)
+    print(county_summary)
     # 8: Save the county with the largest turnout to a text file.
-    txt_file.write(county_vote)
+    txt_file.write(county_summary)
 
     # Save the final candidate vote count to the text file.
     for candidate_name in candidate_votes:
