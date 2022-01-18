@@ -14,7 +14,7 @@
 
   The election consisted of three diffrent counties, as we start to look at each county we will provide the vote count also the percentage of votes.
 
-    First county is Arapahoe with 6.7% of the votes which resulted in 24,801 actual votes.
+  First county is Arapahoe with 6.7% of the votes which resulted in 24,801 actual votes.
 
   ![Code1](Resources/Arapahoe.png)
 
@@ -22,13 +22,13 @@
 
   ![Code1](Resources/Denver.png)
 
-    Third county is Jefferson with 10.5% of the votes which resulted in 38,855 actual votes.
+  Third county is Jefferson with 10.5% of the votes which resulted in 38,855 actual votes.
 
   ![Code1](Resources/Jefferson.png) 
 
   While looking at the data we can see that Denver had the largest number of votes and the highest turnout of voters
 
-  ![Code1](Resources/Denver_Turnout.png) 
+  ![Code1](Resources/Largest_Turnout.png) 
   
   Next we look at the candidates who were involved in the election, we will look at each of the candidates votes and percanetage to determine who is the winner of the election
 
