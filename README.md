@@ -1,25 +1,21 @@
 # Election_Analysis
 
 ## Project Overview
-  A Colorado BOard of Elections employee has given you the following task to complete the election audits of a recent local congression election -- 
+  In this challenge we are tasked with helping Seth and Tom to break down the data and complete the election audits on a recent congressional election. We will have to come up with results of the election based on the information provided to us by Tom in a CSV file. 
   
-  1. Calculate the total numbers of votes cast. 
-  2. get a complete list of candidates who recieved votes 
-  3. calculate the total number of votes each candidaate recieved 
-  4. calculate the percentahe of votes each candidta won
-  5. determine the winner of the election based on popular vote
-
-## Resources 
+  ## Resources 
 - Data Sources: election_results.csv
-- software: Pythin 3.6.1, Visual studio code 1.38.1
+- software: Pythin 3.9.7, Visual studio code 1.63
 
 ## Summary
-  The analysis of the election show that 
-    There were "X" votes cast in teh election 
-    The candidates were:
-      1. Candidate 1 
-      2. Candidate 2 
-      3. Candidate 3
+###  One of the first tasks was to come up with a full count of votes that were collected out of the counties involved. All three counties had a total of 369,711 votes. 
+  ![Code1](Resources/Total_votes.png)
+
+
+  In this election we had three candidates  
+     1. Charles Casper Stockham
+     2. Diana DeGette 
+     3. Raymon Anathony Doane
   =The candidate results were:
     - candidate 1 recieved "X%" of the vote and "y" number of votes
     - candidate 2 recieved "X%" of the vote and "y" number of votes
