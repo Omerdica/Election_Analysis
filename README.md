@@ -9,6 +9,8 @@
 
 ## Summary
   One of the first tasks was to come up with a full count of votes that were collected out of the counties involved. All three counties had a total of 369,711 votes. 
+  ![Code1](Resources/final_vote_count.png)
+
 
   ![Code1](Resources/Total_votes.png)
 
@@ -18,7 +20,7 @@
 
   ![Code1](Resources/Arapahoe.png)
 
-    Second county is Denver with 82.8% of the votes which resulted in 306,055 actual votes.
+  Second county is Denver with 82.8% of the votes which resulted in 306,055 actual votes.
 
   ![Code1](Resources/Denver.png)
 
@@ -27,6 +29,8 @@
   ![Code1](Resources/Jefferson.png) 
 
   While looking at the data we can see that Denver had the largest number of votes and the highest turnout of voters
+
+  ![Code1](Resources/code_largest_turnout.png) 
 
   ![Code1](Resources/Largest_Turnout.png) 
   
@@ -49,6 +53,7 @@
   ![Code1](Resources/Winner_Diana.png)
 
   ## Summary
+  This code can be used on any 
 
 
 
