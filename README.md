@@ -7,8 +7,9 @@
 - Data Sources: election_results.csv
 - software: Pythin 3.9.7, Visual studio code 1.63
 
-## Summary
-  One of the first tasks was to come up with a full count of votes that were collected out of the counties involved. All three counties had a total of 369,711 votes. 
+## Election Results
+  One of the first tasks was to come up with a full count of votes that were collected out of the counties involved. All three counties had a total of 369,711 votes.
+ 
   ![Code1](Resources/final_vote_count.png)
 
 
