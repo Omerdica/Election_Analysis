@@ -54,10 +54,16 @@
   ![Code1](Resources/Winner_Diana.png)
 
   ## Summary
-  This code can be used on any 
+   We can apply this to any CSV file by changing the code around based on what the CSV file about. One of the first changes has to happen in the importing the file into the VS_Code by assigning os.path where the file is located.
 
+  ![Code1](Resources/Code_CSV_OS.png) 
 
+   We will have to change the names of the variables to make sure they match the new CSV file. 
 
+  ![Code1](Resources/Code_Variables.png) 
 
+  In this next step we focus on For/If loops, as we start creating these loops its very important to make sure when naming you variables not to choose very similar names that you already have in your code. This was a mistakes i made and had hard time figuring out my code when i got an error code. 
+
+ ![Code1](Resources/For_If_Code_2.png) 
 
 
