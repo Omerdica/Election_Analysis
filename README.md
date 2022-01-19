@@ -49,6 +49,8 @@
 
   ![Code1](Resources/Raymon.png) 
 
+  ![Code1](Resources/Candidate_Code.png)
+
   When we look at the completed data and complete count of votes we come to a conclusion that Diana DeGette was a winner of the election. Diana had the highest number of votes out of the three candidates. 
 
   ![Code1](Resources/Winner_Diana.png)
@@ -62,7 +64,7 @@
 
   ![Code1](Resources/Code_Variables.png) 
 
-  In this next step we focus on For/If loops, as we start creating these loops its very important to make sure when naming you variables not to choose very similar names that you already have in your code. This was a mistakes i made and had hard time figuring out my code when i got an error code. 
+  In this next step we focus on For/If loops, as we start creating these loops its very important to make sure when naming you variables not to choose very similar names that you already have in your code. This was a mistakes i made and had hard time figuring out error's as my variables names were one letter off. 
 
  ![Code1](Resources/For_If_Code_2.png) 
 
